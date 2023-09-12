@@ -1,59 +1,88 @@
 <!DOCTYPE html>
-<html lang="nl">
-  <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FDND Visitekaartje</title>
     <link rel="stylesheet" href="styles/style.css">
-  </head>
-  <body>
-    
-    <article>
-      
-      <header>
-        
-        <h1>Jane Doe</h1>
-        
-        <p><em>Creatieve Frontend Developer in spé</em></p>
-        
-        <button>
-          <svg width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <title>Wijzig layout</title>
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M4 8v-2a2 2 0 0 1 2 -2h2"></path>
-            <path d="M4 16v2a2 2 0 0 0 2 2h2"></path>
-            <path d="M16 4h2a2 2 0 0 1 2 2v2"></path>
-            <path d="M16 20h2a2 2 0 0 0 2 -2v-2"></path>
-          </svg>
-          <svg width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="red" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M15 19v-2a2 2 0 0 1 2 -2h2"></path>
-            <path d="M15 5v2a2 2 0 0 0 2 2h2"></path>
-            <path d="M5 15h2a2 2 0 0 1 2 2v2"></path>
-            <path d="M5 9h2a2 2 0 0 0 2 -2v-2"></path>
-          </svg>
-        </button>
-        
-      </header>
-  
-      <img src="assets/creative-coder.png" alt="" width="800" height="800">
+    <title>Netflix Profile Customization</title>
+</head>
+<body>
+    <header>
+        <h1>VISITE KAARTJE</h1>
+    </header>
+    <h2>What would you like to know?</h2>
+    <div class="container">
+        <div class="profile" id="r1">
+            <div class="profile-frame">
+                <!-- Content for Profile 1 -->
+                <div class="profile-image">
+                    <img src="assets/me.jpg" alt="Profile 1" width="200" height="200">
+                </div>
+                <div class="profile-info">
+                    <h3>ME</h3>
+                </div>
+                <!-- End of Content for Profile 1 -->
+            </div>
+        </div>
+        <div class="profile" id="r2">
+            <div class="profile-frame">
+                <!-- Content for Profile 2 -->
+                <div class="profile-image">
+                    <img src="assets/drinks.jpg" alt="Profile 2" width="200" height="200">
+                </div>
+                <div class="profile-info">
+                    <h3>HOBBIES</h3>
+                </div>
+                <!-- End of Content for Profile 2 -->
+            </div>
+        </div>
+        <div class="profile" id="r3">
+            <div class="profile-frame">
+                <!-- Content for Profile 3 -->
+                <div class="profile-image">
+                    <img src="assets/moneyy.jpg" alt="Profile 3" width="200" height="200">
+                </div>
+                <div class="profile-info">
+                    <h3>AMBITIONS</h3>
+                </div>
+                <!-- End of Content for Profile 3 -->
+            </div>
+        </div>
+    </div>
 
-      <dl>
-        <dt>HTML</dt>
-        <dd>🏆🏆🏆</dd>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+   
+
+    <div class="popup" id="popup1">
+        <div class="popup-content">
+            <div class="popup-arrow" id="closePopup" onclick="closePopup()">&#9664;</div>
+            <p>my name is riley, i am 21 years old , i live in haarlem and 
+                i have studied ibs (international business studies) .I am really into fashion and always love to explore
+                new ways to express myself</p>
+        <div class="popup" id="popup2">
+            <div class="popup-content">
+             <div class="popup-arrow" id="closepopup" onclick="closepopup()">&#9664;</div>
+             <p> i love to grab drinks with my friends, i always try out new recipes.</p>
+        </div>
         
-        <dt>CSS</dt>
-        <dd>🏆🏆</dd>
-        
-        <dt>JavaScript</dt>
-        <dd>🏆🏆🏆🏆</dd>
-      </dl>
-  
-      <p>Het WEB is te gek! <br> Met HTML, CSS en JavaScript kan ik vette, interactieve web apps maken.</p>
-      
-    </article>
+        </div>
+    </div>
+    
+    
+
+    
+</body>
+</html>
+
+    </div>
+
+   
 
     <script src="scripts/script.js"></script>
-    
-  </body>
+</body>
 </html>
